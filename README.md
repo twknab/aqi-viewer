@@ -20,12 +20,12 @@ Copy the repo and install as follows:
 
 ## 💻 Technologies
 
-- NodeJS
-- ExpressJS
-- MongoDB
-- MongooseJS
-- VueJS
-- Bootstrap
+- [NodeJS](https://nodejs.org/en/)
+- [ExpressJS](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [MongooseJS](https://mongoosejs.com/)
+- [VueJS](https://vuejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## 🧸 Features
 
