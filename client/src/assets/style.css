@@ -1,0 +1,145 @@
+::selection {
+  background: rgb(255 99 99);
+}
+
+body, .form-control {
+  background-color: #181A1B;
+  color: #D1CDC7;
+}
+
+i {
+  font-size: 30px;
+  margin-right: 7px;
+}
+
+a, .btn-link {
+  text-decoration: none;
+}
+b.welcome-highlight {
+  color: #779dd7;
+}
+
+a#byTK {
+  text-align: center;
+  display: block;
+  font-variant: small-caps;
+  font-size: 11px;
+  color: #818181;
+}
+
+a#byTK:hover {
+  color: whitesmoke;
+}
+
+.legend {
+  font-size: 1.8em;
+}
+
+fieldset {
+  width: 350px;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+}
+
+fieldset#aqi-result,
+fieldset#limit-comparison {
+  border-radius: 15px;
+  border: solid 12px #3e3e3e;
+  border: solid 12px #3e3e3e;
+}
+
+.form-control {
+  border-color: rgb(60, 65, 68);
+}
+
+.form-control:focus {
+  background-color: #0d6efd;
+  color: whitesmoke;
+  border-color: rgb(60, 65, 68);
+}
+.form-control:focus::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+;
+  opacity: 1;
+  /* Firefox */
+}
+
+
+.alert {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 45px;
+  font-size: 20px;
+}
+
+.alert-link:hover {
+  color: #e500ff;
+}
+
+.alert-primary {
+  color: #0d6efd;
+  background-color: #121212;
+  border-color: #1656af;
+}
+
+.alert-primary .alert-link {
+  color: #D1CDC7;
+}
+
+.alert-danger {
+  background-color: rgb(54, 10, 14);
+  border-color: rgb(188, 30, 46);
+  /* min-width: 325px; */
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+}
+
+.validation-error {
+  color: rgb(255, 100, 114);
+  width: auto;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.validation-error ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.btn-close {
+  font-size: 15px;
+}
+
+.btn-link#airnow-link {
+  margin: auto;
+  width: 100%;
+}
+
+.aqi {
+  font-variant: small-caps;
+}
+
+.limit-comparison {
+  font-size: 22px;
+}
+
+#aqi-value, #limit-value {
+  font-size: 5em;
+  font-weight: 800;
+}
+
+.result-text-shadow {
+  text-shadow: 1px 1px 1px black;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    padding-top: 15px;
+  }
+}
