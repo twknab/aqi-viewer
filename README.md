@@ -23,7 +23,7 @@ Copy the repo and install as follows:
 - NodeJS
 - ExpressJS
 - MongoDB
-- MongoosJS
+- MongooseJS
 - VueJS
 - Bootstrap
 
