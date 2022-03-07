@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     getHasCityAndLimitSet() {
-      return this.user.city || this.user.limit >= 0;
+      return this.user.city && this.user.limit >= 0;
     },
   },
   methods: {
