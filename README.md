@@ -45,6 +45,8 @@ Copy the repo and install as follows:
   - 1. Component testing via Cypress
   - 2. Backend API testing via Jest
   - NOTE: I did wish to add tests for the front end components and backend routes, but have not used Cypress or Jest before and was getting a little tripped up. For the sake of getting things deployed, I tabled this for now and would iterate on this as a fast-follow. Ideally, I'd ensure a test scenario for User creation via `/api/user`, as well as ensure login and other routes work as expected. Additionally, I'd provide test cases for components to ensure sample data provided renders correctly as props/data within the component itself.
+- Move dashboard errors directly above form than top of UI
+- Add `isLoading` with graphic displayed while AQI is fetched via API call prior to DOM update
 - Better setup for prod vs dev environment
   - e.g process.env.NODE_ENV === 'production' vs 'development' and set paths variables / appropriately
 - Refactor more template into child components
